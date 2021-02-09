@@ -3,7 +3,7 @@ require 'pry'
 def nyc_pigeon_organizer(data)
   new_hash = {}
   data.each do |k, v|
-    v.each do |k, names|
+    v.each do |inner_key, names|
       
       names.each do |name|
       binding.pry
