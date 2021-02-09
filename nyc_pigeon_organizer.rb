@@ -8,6 +8,7 @@ def nyc_pigeon_organizer(data)
         if !new_hash[name]
           binding.pry
           new_hash[name] = {}
+        end
       end
     end
   end
