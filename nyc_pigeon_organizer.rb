@@ -14,7 +14,7 @@ def nyc_pigeon_organizer(data)
           new_hash[name][k] = []
         end
         
-        new_hash[name][k] << 
+        new_hash[name][k] << inner_key.to_s
         binding.pry
       end
     end
