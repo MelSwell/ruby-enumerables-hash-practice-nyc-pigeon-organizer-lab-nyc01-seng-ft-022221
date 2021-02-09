@@ -15,11 +15,12 @@ def nyc_pigeon_organizer(data)
         end
         
         new_hash[name][k] << inner_key.to_s
-        binding.pry
+        
       end
     end
   end
   new_hash
+  binding.pry
 end
 
 nyc_pigeon_organizer({
