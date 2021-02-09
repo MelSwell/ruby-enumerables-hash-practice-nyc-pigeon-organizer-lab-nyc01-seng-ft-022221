@@ -4,9 +4,9 @@ def nyc_pigeon_organizer(data)
   new_hash = {}
   data.each do |k, v|
     v.each do |inner_key, names|
-      
-      names.each do |name|
       binding.pry
+      names.each do |name|
+      
       new_hash = {name => v}
       
       end
